@@ -111,87 +111,18 @@ if data1 and data2:
 Output
 
 The program generates maintenance alerts based on the comparison results.
+### Analysis of Multiple AI Tools
 
-For example:
+| Criteria              | ChatGPT         | Gemini                | Claude                  |
+| --------------------- | --------------- | --------------------- | ----------------------- |
+| Code Structure        | Well structured | Simple and functional | Detailed and structured |
+| Error Handling        | Good            | Basic                 | Good                    |
+| Code Comments         | Clear           | Limited               | Detailed                |
+| Modularity            | High            | Moderate              | High                    |
+| Practical Relevance   | High            | Moderate              | High                    |
+| Ease of Understanding | High            | High                  | High                    |
+| Overall Output        | Balanced        | Concise               | Detailed                |
 
-Temperature variation detected → Check the machine cooling system.
-High vibration detected → Inspect bearings and moving components.
-Status mismatch → Verify machine condition immediately.
-Normal values → Continue regular monitoring.
-Analysis of Multiple AI Tools
-Criteria	ChatGPT	Gemini	Claude
-Code Structure	Well structured	Simple and functional	Detailed and structured
-Error Handling	Good	Basic	Good
-Code Comments	Clear	Limited	Detailed
-Modularity	High	Moderate	High
-Practical Relevance	High	Moderate	High
-Ease of Understanding	High	High	High
-Overall Output	Balanced	Concise	Detailed
-Observations
-ChatGPT generated well-structured and easy-to-understand Python code with good error handling.
-Gemini generated simpler code that was functional and easy to implement.
-Claude provided detailed code with additional explanations and good modularity.
-All three AI tools were able to understand the programmer persona and generate relevant Python code.
-Structured prompts resulted in better-organized outputs.
-Adding error-handling requirements improved the reliability of the generated code.
-Breaking the task into different stages made the code easier to develop and test.
-Prompt refinement improved the quality and practical usefulness of the generated solutions.
-Comparison of Generated Code
-ChatGPT
-
-Provided a balanced solution with:
-
-Clear functions
-Proper error handling
-Simple syntax
-Good code organization
-Practical implementation
-Gemini
-
-Provided:
-
-Simple implementation
-Shorter code
-Basic error handling
-Easy-to-understand structure
-Claude
-
-Provided:
-
-Detailed implementation
-Strong modular structure
-More explanations
-Additional considerations for improving the application
-Reflection Note
-
-The experiment demonstrates that prompt clarity directly influences AI-generated code quality. When the prompts included a specific role, clear requirements, and expected outputs, the AI tools generated more useful and organized Python programs.
-
-The following prompt engineering techniques were particularly useful:
-
-Persona Pattern: “Act as a professional Python developer.”
-Clear task description
-Step-by-step task breakdown
-Specific output requirements
-Error-handling instructions
-Threshold-based conditions
-Request for modular and reusable functions
-
-The experiment also showed that different AI tools may produce different coding styles even when the same prompt is used.
-
-Future Improvements
-
-The application can be improved by:
-
-Adding API authentication using API keys or tokens.
-Using actual machine monitoring APIs instead of sample URLs.
-Defining safe temperature and vibration thresholds based on machine specifications.
-Adding data visualization using Python libraries.
-Storing machine data in a database.
-Adding unit test cases to verify the generated functions.
-Using logging instead of only print() statements.
-Adding automatic alerts for critical machine conditions.
-Creating a dashboard to display real-time machine status.
-Using historical data to improve predictive maintenance.
 # Conclusion
 
 The experiment successfully demonstrated the use of multiple AI tools for Python code generation in a smart manufacturing application. ChatGPT, Gemini, and Claude were used to generate and analyze Python code for API interaction, data comparison, and maintenance recommendations.
